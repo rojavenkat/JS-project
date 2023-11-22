@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    height: 100vmin;
+    width: 100vmin;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+}
+
+.food {
+    background-color: red;
+
+}
+
+.head {
+    background-color: black;
+}
